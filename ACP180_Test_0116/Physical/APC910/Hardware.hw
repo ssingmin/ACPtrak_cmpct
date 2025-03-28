@@ -25,7 +25,7 @@
     <Parameter ID="Cyclic8Duration" Value="9600" />
     <Group ID="FileDevice1" />
     <Parameter ID="FileDeviceName1" Value="SvgData" />
-    <Parameter ID="FileDevicePath1" Value="D:\Trak" />
+    <Parameter ID="FileDevicePath1" Value="F:\Trak" />
     <Parameter ID="ActivateOpcUa" Value="1" />
     <Parameter ID="OpcUaInformationModels_PV_Version" Value="1" />
   </Module>
