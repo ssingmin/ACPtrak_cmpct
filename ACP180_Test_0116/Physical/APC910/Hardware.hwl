@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="APC910.Hardware.hw" LastWriteTime="01/15/2025 10:11:18" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="5PC910.SX01-00" Type="5PC910.SX01-00" X="112" Y="134" />
+    <Module Name="5AC901.IPLK-00" Type="5AC901.IPLK-00" X="143.7" Y="211" />
+    <Module Name="5AC901.BX01-01" Type="5AC901.BX01-01" X="143.7" Y="167" />
+    <Module Name="5PC900_TS17_00" Type="5PC900.TS17-00" X="143.7" Y="144" />
+    <Module Name="Seg_A_3" Type="ACPtrak_180_seg_compact" X="1104" Y="384" />
+    <Module Name="Seg_A_1" Type="8F1I01.AA66.xxxx-1" X="432.099976" Y="336" RotationAngle="180" />
+    <Module Name="Seg_A_2" Type="8F1I01.AA66.xxxx-1" X="816.1" Y="336" RotationAngle="180" />
+    <Module Name="Seg_A_4" Type="8F1I01.AA66.xxxx-1" X="768" Y="480" />
+    <Module Name="Seg_A_5" Type="8F1I01.AA66.xxxx-1" X="432" Y="480" />
+    <Module Name="Seg_A_6" Type="ACPtrak_180_seg_compact" X="240.299988" Y="384" RotationAngle="180" />
+  </Modules>
+  <Links>
+    <Link From="5AC901.IPLK-00" To="Seg_A_1" FromPort="IF1" ToPort="PLK3" IsRoutedByUser="False">
+      <Point X="184.7" Y="219" />
+      <Point X="184.7" Y="219" />
+      <Point X="199.7" Y="219" />
+      <Point X="335" Y="219" />
+      <Point X="335" Y="395" />
+      <Point X="563.6" Y="395" />
+      <Point X="563.6" Y="383" />
+      <Point X="563.6" Y="376" />
+      <Point X="563.6" Y="376" />
+    </Link>
+    <Link From="Seg_A_1" To="Seg_A_2" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="592.6" Y="376" />
+      <Point X="592.6" Y="376" />
+      <Point X="592.6" Y="383" />
+      <Point X="592.6" Y="395" />
+      <Point X="918.6" Y="395" />
+      <Point X="918.6" Y="383" />
+      <Point X="918.6" Y="376" />
+      <Point X="918.6" Y="376" />
+    </Link>
+    <Link From="Seg_A_4" To="Seg_A_5" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="870.4" Y="485.600037" />
+      <Point X="870.4" Y="485.600037" />
+      <Point X="870.4" Y="479.600037" />
+      <Point X="870.4" Y="475" />
+      <Point X="593.2001" Y="475" />
+      <Point X="593.2001" Y="479.600037" />
+      <Point X="593.2001" Y="485.600037" />
+      <Point X="593.2001" Y="485.600037" />
+    </Link>
+    <Link From="Seg_A_5" To="Seg_A_6" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="534.4" Y="485.600037" />
+      <Point X="534.4" Y="485.600037" />
+      <Point X="534.4" Y="479.600037" />
+      <Point X="534.4" Y="465" />
+      <Point X="323.8" Y="465" />
+      <Point X="295.8" Y="465" />
+      <Point X="295.8" Y="465" />
+    </Link>
+    <Link From="Seg_A_3" To="Seg_A_2" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="1130.7998" Y="422.400024" />
+      <Point X="1130.7998" Y="422.400024" />
+      <Point X="1103.7998" Y="422.400024" />
+      <Point X="976.6" Y="422.400024" />
+      <Point X="976.6" Y="383" />
+      <Point X="976.6" Y="376" />
+      <Point X="976.6" Y="376" />
+    </Link>
+    <Link From="Seg_A_3" To="Seg_A_4" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="1130.7998" Y="464.800049" />
+      <Point X="1130.7998" Y="464.800049" />
+      <Point X="1103.7998" Y="464.800049" />
+      <Point X="929.2001" Y="464.800049" />
+      <Point X="929.2001" Y="479.600037" />
+      <Point X="929.2001" Y="485.600037" />
+      <Point X="929.2001" Y="485.600037" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

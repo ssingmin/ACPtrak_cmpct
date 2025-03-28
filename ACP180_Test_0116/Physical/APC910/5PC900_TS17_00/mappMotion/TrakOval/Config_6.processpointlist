@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="ProcessPointList_1" Type="processpointlist">
+    <Selector ID="ProcessPoint[0]">
+      <Property ID="Name" Value="CamStartPoint" />
+      <Property ID="SectorRef" Value="SectorTrackA" />
+      <Property ID="TriggerEventBufferSize" Value="10" />
+      <Selector ID="BarrierFunctionality" Value="Off" />
+    </Selector>
+    <Selector ID="ProcessPoint[1]">
+      <Property ID="Name" Value="CamStopPoint" />
+      <Property ID="SectorRef" Value="SectorTrackA" />
+      <Property ID="TriggerEventBufferSize" Value="10" />
+      <Selector ID="BarrierFunctionality" Value="Off" />
+    </Selector>
+  </Element>
+</Configuration>

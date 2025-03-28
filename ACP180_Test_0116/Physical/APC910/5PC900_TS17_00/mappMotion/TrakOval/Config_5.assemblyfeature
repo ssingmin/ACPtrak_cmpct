@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="AssemblyFeature_2" Type="assemblyfeature">
+    <Selector ID="Type" Value="Coupling">
+      <Group ID="CouplingObject[1]">
+        <Property ID="Name" Value="myCoupling" />
+        <Property ID="ShuttleCount" Value="10" />
+        <Property ID="CamAutomat" />
+        <Property ID="CamList" />
+      </Group>
+    </Selector>
+  </Element>
+</Configuration>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Feature_CamAutomat" Type="axisfeature">
+    <Selector ID="Type" Value="CamAutomat">
+      <Selector ID="CamAutomatType" Value="ProfGen">
+        <Group ID="CommonParameters">
+          <Group ID="Master">
+            <Selector ID="MasterSource" Value="MasterAxis">
+              <Property ID="AxisReference" />
+              <Property ID="ValueSource" Value="SetPosition" />
+              <Property ID="MaxVelocity" Value="1.0" />
+            </Selector>
+            <Property ID="StartPosition" Value="0.0" />
+            <Selector ID="StartInterval" Value="MasterAxisPeriod" />
+          </Group>
+          <Group ID="AdvancedParameters">
+            <Group ID="StartStateParameters">
+              <Property ID="StartState" Value="0" />
+              <Property ID="RelMasterStartPos" Value="0.0" />
+            </Group>
+            <Group ID="AdditiveAxes">
+              <Selector ID="AdditiveMasterSource" Value="NotUsed" />
+              <Selector ID="AdditiveSlaveSource" Value="NotUsed" />
+            </Group>
+            <Property ID="MasterStartPositionMode" Value="NotEvaluatedAnew" />
+            <Group ID="ControlSettings">
+              <Property ID="CrossLeftBoundary" Value="PositionLimitedHorizontal" />
+              <Property ID="CamChangeImmediately" Value="CurrentMasterMoveDir" />
+            </Group>
+            <Group ID="StartIntervals" />
+          </Group>
+        </Group>
+        <Group ID="States">
+          <Selector ID="State0" Value="Used" />
+        </Group>
+      </Selector>
+    </Selector>
+  </Element>
+</Configuration>

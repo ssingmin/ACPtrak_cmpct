@@ -1,0 +1,22 @@
+(* Constants *)
+VAR CONSTANT
+	MAX_SHUTTLE_CNT : USINT := 25; (* Maximum number of shuttles handled by the assembly *)
+END_VAR
+(* Sequence control *)
+VAR
+	Step : StepEnum;
+	CurrentShuttleNumber : UINT;
+	ShuttleReferences : ARRAY[1..MAX_SHUTTLE_CNT] OF McAxisType;
+	UserDataSize : UDINT;
+END_VAR
+(* Function blocks *)
+VAR
+	MC_BR_AsmPowerOn_AcpTrak_0 : MC_BR_AsmPowerOn_AcpTrak;
+	MC_BR_AsmPowerOff_AcpTrak_0 : MC_BR_AsmPowerOff_AcpTrak;
+	MC_BR_AsmGetShuttle_AcpTrak_0 : MC_BR_AsmGetShuttle_AcpTrak;
+	MC_BR_AsmStop_AcpTrak_0 : MC_BR_AsmStop_AcpTrak;
+	MC_BR_AsmReadStatus_AcpTrak_0 : MC_BR_AsmReadStatus_AcpTrak;
+	MC_BR_AsmReset_AcpTrak_0 : MC_BR_AsmReset_AcpTrak;
+	MC_BR_RoutedMoveVel_AcpTrak_0 : MC_BR_RoutedMoveVel_AcpTrak;
+END_VAR
+(*CAM Control*)

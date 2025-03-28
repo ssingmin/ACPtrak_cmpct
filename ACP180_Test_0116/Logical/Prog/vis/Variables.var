@@ -1,0 +1,8 @@
+
+VAR
+	Vis : McAcpTrakAssemblyVisData;
+	SizeOfVis : UDINT := 0;
+	VisShuttleCnt : USINT := 0;
+	i : USINT := 0;
+	UserData : REFERENCE TO ShuttleUserData_type;
+END_VAR

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.0.0?>
+<CamProfile NcManager="ACP10" MasterAxisVelocity="1" MasterAxisAcceleration="0" DefaultCurveType="Polynomial5" MathematicalNotation="true">
+    <Cam Name="NewMotionObject1" LeftBoundaryIndex="0" RightBoundaryIndex="0">
+        <Supremum y="1.7e+308" Dy="1.7e+308" IsMathDy="true" Ddy="1.7e+308" IsMathDdy="true" Dddy="1.7e+308" IsMathDddy="true"/>
+        <Infimum  y="-1.7e+308" Dy="-1.7e+308" IsMathDy="true" Ddy="-1.7e+308" IsMathDdy="true" Dddy="1.7e+308" IsMathDddy="true"/>
+    </Cam>
+</CamProfile>

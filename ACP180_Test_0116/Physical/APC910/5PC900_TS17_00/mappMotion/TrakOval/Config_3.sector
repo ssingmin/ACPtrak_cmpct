@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="SectorTrackA" Type="sector">
+    <Selector ID="Type" Value="Composed">
+      <Group ID="StartSegment">
+        <Property ID="SegmentRef" Value="::Seg_A_1" />
+      </Group>
+      <Group ID="IntermediateSegments">
+        <Property ID="SegmentRef[1]" Value="::Seg_A_2" />
+        <Property ID="SegmentRef[2]" Value="::Seg_A_3" />
+        <Property ID="SegmentRef[3]" Value="::Seg_A_4" />
+        <Property ID="SegmentRef[4]" Value="::Seg_A_5" />
+      </Group>
+      <Group ID="EndSegment">
+        <Property ID="SegmentRef" Value="::Seg_A_6" />
+        <Property ID="PositionRelativeTo" Value="FromEnd" />
+      </Group>
+    </Selector>
+    <Selector ID="Alarms" Value="None" />
+  </Element>
+</Configuration>

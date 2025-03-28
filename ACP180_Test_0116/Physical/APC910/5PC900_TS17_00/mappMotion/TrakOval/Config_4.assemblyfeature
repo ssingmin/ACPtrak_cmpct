@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="AssemblyFeature_1" Type="assemblyfeature">
+    <Selector ID="Type" Value="InitShuttleSim">
+      <Group ID="InitShuttleSim[1]">
+        <Property ID="SectorRef" Value="SectorTrackA" />
+        <Property ID="Orientation" Value="Positive" />
+        <Selector ID="ShuttleDefinition" Value="SingleShuttleDefinition">
+          <Property ID="Position[1]" Value="0.15" />
+          <Property ID="Position[2]" Value="0.3" />
+          <Property ID="Position[3]" Value="0.45" />
+          <Property ID="Position[4]" Value="0.6" />
+          <Property ID="Position[5]" Value="0.75" />
+          <Property ID="Position[6]" Value="0.9" />
+          <Property ID="Position[7]" Value="1.05" />
+          <Property ID="Position[8]" Value="1.2" />
+          <Property ID="Position[9]" Value="1.35" />
+          <Property ID="Position[10]" Value="1.5" />
+        </Selector>
+      </Group>
+    </Selector>
+  </Element>
+</Configuration>
